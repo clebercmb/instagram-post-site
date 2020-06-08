@@ -1,0 +1,98 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+div.post {
+    background: white;
+    width: 400px;
+    margin: auto;
+
+}
+
+/*
+div.post-sponsor {
+    width: 80%;
+}
+*/
+
+div.menu {
+    font-size: 20px;
+}
+
+div.post-header {
+    padding: 10px;
+}
+
+div.logo, div.name, div.menu {
+    display: inline-block;
+    
+}
+
+
+/*
+div.post-sponsor, div.logo, div.name, div.menu {
+    display: inline-block;
+    padding: 5px;
+}
+*/
+.post-comments {
+    font-size: 20px;
+}
+
+.post-comments  div {
+    display: inline-block;  
+} 
+
+.post-comments {
+    padding: 10px; 
+}
+
+.bookmark {
+    float: right;
+}
+
+.post-likes * {
+    margin: 0;
+    font-size: 15px;
+
+}
+.post-likes  {
+padding: 10px;
+}
+
+.post-description * {
+    margin: 0;  
+}
+.post-description {
+    padding: 10px;  
+}
+
+div.menu {
+    float: right;
+
+}
+
+div.post img {
+    
+    width: 100%;
+    height: 300px;
+}
+
+div.name * , div.log * {
+    margin: 0;
+}
+
+div.name {
+    font-size: 15px;
+    
+}
+
+div.logo {
+    font-size: 30px;
+}
